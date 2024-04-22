@@ -1,0 +1,40 @@
+﻿  main.cpp
+D:\Jobs\project\Timely encryption scheme\Timely encryption scheme\Timely encryption scheme\main.cpp(26,29): warning C4101: “e”: 未引用的局部变量
+D:\Jobs\project\Timely encryption scheme\Timely encryption scheme\Timely encryption scheme\main.cpp(122,33): warning C4101: “e”: 未引用的局部变量
+cryptlib.lib(cryptlib.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(cryptlib.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(integer.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(integer.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(algparam.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(algparam.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(allocate.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(allocate.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(asn.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(asn.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(basecode.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(basecode.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(des.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(des.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(dll.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(dll.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(ec2n.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(ec2n.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(ecp.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(ecp.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(files.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(files.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(filters.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(filters.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(gf2n.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(gf2n.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(gfpcrypt.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(gfpcrypt.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(hmac.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(hmac.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(hrtimer.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(hrtimer.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(iterhash.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(iterhash.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(keccak_core.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(keccak_core.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(misc.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(misc.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(modes.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(modes.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(mqueue.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(mqueue.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(nbtheory.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(nbtheory.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(oaep.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(oaep.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(osrng.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(osrng.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(pkcspad.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(pkcspad.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(pssr.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(pssr.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(pubkey.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(pubkey.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(queue.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(queue.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(randpool.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(randpool.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(rijndael.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(rijndael.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(rijndael_simd.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(rijndael_simd.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(rng.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(rng.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(rsa.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(rsa.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(sha.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(sha.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(sha_simd.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(sha_simd.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+cryptlib.lib(sha3.obj) : warning LNK4099: 未找到 PDB“”(使用“cryptlib.lib(sha3.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  Timely encryption scheme.vcxproj -> D:\Jobs\project\Timely encryption scheme\Timely encryption scheme\x64\Debug\Timely encryption scheme.exe

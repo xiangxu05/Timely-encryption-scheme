@@ -1,0 +1,77 @@
+#include <iostream>
+#include <fstream>
+#include <modes.h>
+#include <files.h>
+#include <aes.h>
+#include "get_Key.h"
+
+using namespace std;
+using namespace CryptoPP;
+
+int main() {
+    try {
+        string Time;
+        string inputFile = "1.txt";
+        string encryptedFile = "2.txt";
+        string decryptedFile = "3.txt";
+
+        // 读取待加密的文件内容
+        ifstream inFile(inputFile, ios::binary);
+        string plainText((istreambuf_iterator<char>(inFile)), istreambuf_iterator<char>());
+        inFile.close();
+
+        // 创建 AES 密钥
+        cout << "输入要加密的期限（秒）：" << endl;
+        cin >> Time;
+        Key_Lifespan encryption;
+        encryption = encrypt_Key(stoi(Time));
+        SecByteBlock aesKey1(reinterpret_cast<const byte*>(encryption.Key.c_str()), 32);
+        SecByteBlock aesKey2(reinterpret_cast<const byte*>(decrypt_Key(encryption).c_str()), 32);
+        // 设置 AES 加密器和解密器
+        ECB_Mode<AES>::Encryption aesEncryptor;
+        aesEncryptor.SetKey(aesKey1, aesKey1.size());
+
+        ECB_Mode<AES>::Decryption aesDecryptor;
+        aesDecryptor.SetKey(aesKey2, aesKey2.size());
+
+        // 加密并写入加密后的文件
+        string cipherText;
+        StringSource(plainText, true,
+            new StreamTransformationFilter(aesEncryptor,
+                new StringSink(cipherText)
+            )
+        );
+
+        ofstream encryptedOut(encryptedFile, ios::binary);
+        encryptedOut.write(cipherText.c_str(), cipherText.size());
+        encryptedOut.close();
+
+        cout << "File encrypted successfully." << endl;
+
+        // 打开加密后的文件，进行解密操作
+        ifstream encryptedIn(encryptedFile, ios::binary);
+        string encryptedText((istreambuf_iterator<char>(encryptedIn)), istreambuf_iterator<char>());
+        encryptedIn.close();
+
+        // 解密并写入解密文件
+        string decryptedText;
+        StringSource(encryptedText, true,
+            new StreamTransformationFilter(aesDecryptor,
+                new StringSink(decryptedText)
+            )
+        );
+
+        ofstream decryptedOut(decryptedFile, ios::binary);
+        decryptedOut.write(decryptedText.c_str(), decryptedText.size());
+        decryptedOut.close();
+
+        cout << "File decrypted successfully." << endl;
+    }
+    catch (const Exception& ex) {
+        cerr << "Error: " << ex.what() << endl;
+        return 1;
+    }
+
+    return 0;
+    
+}
